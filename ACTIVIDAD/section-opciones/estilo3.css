@@ -66,6 +66,43 @@ section article{
 	padding: 4px 15px 4px 15px;
 }
 
+
+.aviso{
+	background-color: #BAADAA;
+	display: flex;
+	justify-content:space-between ;
+	align-items: center;
+	height: 10em;
+	padding-right: 5em;
+	padding-left: 5em;
+}
+
+.text{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.text h6{
+	font-size: 40px;
+}
+
+.aviso .text h2 span{
+	font-size: 40px;
+}
+
+.numero{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+}
+
+.numero i {
+	margin-left: 10px;
+}
+
+
+
 /*------------- FOOOTER -----------------*/
 footer{
 	display: flex;
