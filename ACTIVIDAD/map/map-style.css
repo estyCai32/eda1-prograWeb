@@ -47,3 +47,8 @@ button{
 	color: black;
 	background-color: #cbcbcb;
 }
+
+nav{
+	display: flex;
+
+}
