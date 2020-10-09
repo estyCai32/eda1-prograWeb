@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.contenedor-map{
+	margin: 20px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.lugares{
+	background-color: grey;
+	width: 45%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.map{
+	
+}
+
+.item {
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	border-radius: 15px;
+	width: 80%;
+}
+
+.item-info {
+	margin-right: 15px;
+}

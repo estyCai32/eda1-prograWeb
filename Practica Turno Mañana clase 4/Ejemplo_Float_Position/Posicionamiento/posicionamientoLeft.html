@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+
+<head>
+<title>Posicionamiento de cajas 4</title>
+<style type="text/css">
+*  { font-family: arial; margin: 0 }
+
+h1 { text-align: center; }
+
+body > p  { text-align: justify; margin: 0 40px; }
+
+#principal { width: 800px; height: 800px; background-color: silver; margin:auto; }
+
+div p  { padding: 5px }
+
+#est { width: 100px; height: 100px; background-color: grey; position: static ; left: 50px; bottom: 50px;}
+#abs { width: 100px; height: 100px; background-color: yellow; position: absolute ; left: 50px; bottom: 50px; }
+#rel { width: 100px; height: 100px; background-color: lime; position: relative ; left: 50px; bottom: 50px; }
+#fix { width: 100px; height: 100px; background-color: aqua; position: fixed ; left:150px; bottom: 50px;}
+
+</style>
+
+</head>
+<body>
+<h1>Posicionamiento de cajas 4</h1>
+
+<p>Tenemos cuatro cajas iguales (100x100 píxeles), Hemos aplicado la propiedad position, 
+con los valores que indica cada caja. También hemos aplicado las propiedades right, left y bottom</p>
+<br/><br/><br/><br/>
+
+<div id="principal">
+ 
+	<div id="est">
+		<p>Posición estática</p>
+	</div>
+	
+	<div id="rel">
+		<p>Posición relativa</p>
+	</div>
+	
+	<div id="abs">
+		<p>Posición absoluta</p>
+	</div>
+	 
+	<div id="fix">
+		<p>Posición fija</p>
+	</div>
+	
+</div>
+
+</body>
+</html>
